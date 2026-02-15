@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f8f9fa;
+    color: #333;
+}
+
+.navbar {
+    background: #0f172a;
+    padding: 15px 0;
+}
+
+.nav-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #facc15;
+    font-size: 28px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo span {
+    color: white;
+}
+
+.nav-links a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.nav-links .active {
+    color: #facc15;
+}
+
+.hero {
+    min-height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1566073771259-6a8506099945");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    padding-top: 80px; 
+}
+
+
+.hero-text {
+    background: rgba(0,0,0,0.6);
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    background: #facc15;
+    color: black;
+    text-decoration: none;
+}
+
+.section {
+    padding: 60px 10%;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature-grid,
+.room-grid,
+.dining-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.feature img,
+.room-card img,
+.dining-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.room-card,
+.dining-card,
+.feature {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.amenities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 20px;
+    text-align: center;
+}
+
+.amenity {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contact-box {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.footer {
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
